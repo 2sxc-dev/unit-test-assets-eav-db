@@ -15,8 +15,8 @@ folder so that all unit tests can pass.
 
 ## Steps
 1. clone this repo as `C:\Projects\2sxc\unit-test-assets-eav-db`
-1. 'CD C:\Projects\2sxc\unit-test-assets-eav-db'
-1. run 'restore.bat' to restore [eav-unit-test-temp] database
+1. `CD C:\Projects\2sxc\unit-test-assets-eav-db`
+1. run `restore.bat` to restore [eav-unit-test-temp] database
 1. execute automated tests in visual studio
 
 ## Example
