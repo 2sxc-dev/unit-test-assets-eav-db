@@ -1,6 +1,8 @@
 # unit-test-assets-eav-db
 
-Contains a DB backup which is to be used for automated testing
+Contains a DB backup which is to be used for automated testing.
+
+Last publication: 2025-03-17 v19.03.03
 
 This must be synced in your
 
@@ -8,12 +10,16 @@ This must be synced in your
 
 folder so that all unit tests can pass.
 
+Restore to a name `eav-testing` in your local SQL Server.
+
 ## Requirements
+
 - 2sxc DEV ENV in `C:\Projects\2sxc\`
 - SQL SERVER 2019 DEVELOPER EDITION installed as localhost default instance
 - restore.bat sql script and automated tests will use windows integrated trusted connection to sql database
 
 ## Steps
+
 1. clone this repo as `C:\Projects\2sxc\unit-test-assets-eav-db`
 1. `CD C:\Projects\2sxc\unit-test-assets-eav-db`
 1. run `restore.bat` to restore [eav-unit-test-temp] database
