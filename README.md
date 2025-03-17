@@ -4,6 +4,9 @@ Contains a DB backup which is to be used for automated testing.
 
 Last publication: 2025-03-17 v19.03.03
 
+It is a DNN db which is maintained on the PC of the lead developer @iJungleboy.
+From time to time it is re-exported to this repo so other developers can run their unit tests. 
+
 This must be synced in your
 
 `2sxc/unit-test-assets-eav-db`
